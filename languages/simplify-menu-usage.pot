@@ -1,0 +1,245 @@
+# Copyright (C) 2020 Konstantin Kröpfl
+# This file is distributed under the same license as the Simplify Menu Usage plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Simplify Menu Usage 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/simplify-menu-usage-\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-07-22T10:39:12+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: simplify-menu-usage\n"
+
+#. Plugin Name of the plugin
+msgid "Simplify Menu Usage"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/simplify-menu-usage/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Improves the handling of the menu section in the dashboard. Fast deleting and inserting/moving menu items."
+msgstr ""
+
+#. Author of the plugin
+msgid "Konstantin Kröpfl"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://profiles.wordpress.org/konstk/"
+msgstr ""
+
+#: admin/classes/rating-banner.php:34
+msgid "No valid Ajax request"
+msgstr ""
+
+#: admin/classes/rating-banner.php:39
+msgid "Banner has been dismissed"
+msgstr ""
+
+#: admin/classes/rating-banner.php:41
+msgid "Something went wrong - try again."
+msgstr ""
+
+#: admin/partials/downwards-inserting-behavior.php:9
+#: admin/partials/leftwards-inserting-behavior.php:9
+msgid "Default behaviour"
+msgstr ""
+
+#: admin/partials/downwards-inserting-behavior.php:11
+msgid "Choosing the default behavior is the standard way how WordPress handles inserting menu items downwards. To put it simply, if the next menu item is on the same level inserting downwards will be on the same level. If the next menu item has children elements, the item, which is about to be inserted/moved downwards will become a new children element of the next menu item. It should be familiar as it is the default way of handling the downwards move. For better visualization, the following image show the behavior."
+msgstr ""
+
+#: admin/partials/downwards-inserting-behavior.php:19
+#: admin/partials/leftwards-inserting-behavior.php:17
+msgid "Showing the default behavior of moving/inserting elements downwards."
+msgstr ""
+
+#: admin/partials/downwards-inserting-behavior.php:23
+msgid "Same-Level behaviour"
+msgstr ""
+
+#: admin/partials/downwards-inserting-behavior.php:25
+msgid "Choosing the same level behavior is very intuitive. It simply inserts/moves the menu item on the same level one step downwards. Special case when the next menu item has children elements it will be inserted after the entire sub-menu with its original level. For better visualization, the following imagenav-menu-settings-explainations show the behavior."
+msgstr ""
+
+#: admin/partials/downwards-inserting-behavior.php:31
+msgid "Showing the same-level behavior of moving/inserting elements downwards."
+msgstr ""
+
+#: admin/partials/downwards-inserting-behavior.php:35
+#: admin/partials/leftwards-inserting-behavior.php:21
+msgid "Take-Children elements behaviour"
+msgstr ""
+
+#: admin/partials/downwards-inserting-behavior.php:37
+msgid "Choosing the behavior of taking children elements can be very handy. Especially if you have very large nested menus, which would require to manually drag and drop every child element to its new parent element. This is the scenario when the \"take-children\" behavior should be used when inserting an menu item downwards. For better visualization, the following image show the behavior."
+msgstr ""
+
+#: admin/partials/downwards-inserting-behavior.php:44
+#: admin/partials/leftwards-inserting-behavior.php:28
+msgid "Showing the take-children behavior of moving/inserting elements downwards."
+msgstr ""
+
+#: admin/partials/explaination-inserting-behavior-menu.php:7
+msgid "Settings applied for inserting/moving menu items"
+msgstr ""
+
+#: admin/partials/explaination-inserting-behavior-menu.php:10
+msgid "The current behavior for inserting/moving items downwards is: <span class=\"current-behavior bold\">%s</span>"
+msgstr ""
+
+#: admin/partials/explaination-inserting-behavior-menu.php:13
+msgid "By clicking the info icon you will see the description and an image illustrating the different behaviors. Clicking again removes the section. This is the behavior set on the settings page <a href=\"%s\" target=\"_blank\">Simplify Menu Usage Settings</a>. To modify the current behavior just temporarily you can click on the downwards arrow, which will change the behavior just temporarily without saving it in the database. "
+msgstr ""
+
+#: admin/partials/explaination-inserting-down-behavior-settings.php:9
+#: admin/partials/explaination-inserting-left-behavior-settings.php:15
+msgid "By clicking the info icon you will see the description and an image illustrating the different behaviors. Clicking again removes the section."
+msgstr ""
+
+#: admin/partials/explaination-inserting-left-behavior-settings.php:10
+msgid "The behavior when moving/inserting menu elements downwards is explained below the relevant setting. The modification for leftwards moving/inserting can be explained as follows. The behavior of moving/inserting menu elements leftwards is the same as provided by WordPress except when the following menu items become child elements and represent a submenu."
+msgstr ""
+
+#: admin/partials/leftwards-inserting-behavior.php:11
+msgid "The default behavior is the standard way how WordPress handles inserting menu items leftwards. To put it simply, if the next menu item will not become a child element of the element, which is going to be moved left the behavior is the default one used by WordPress."
+msgstr ""
+
+#: admin/partials/leftwards-inserting-behavior.php:23
+msgid "The behavior of taking children elements is automatically applied when the next menu item becomes a child element of the menu item, which is moved/inserted leftwards."
+msgstr ""
+
+#: admin/partials/rating-banner.php:7
+msgid "Simplify Menu Usage says Thank you!"
+msgstr ""
+
+#: admin/partials/rating-banner.php:9
+msgid "I hope the \"Simplify Menu Usage\" plugin helps you working more efficient on your site. If you like it, it would be very kind if you rate the plugin."
+msgstr ""
+
+#: admin/partials/rating-banner.php:13
+msgid "Dismiss"
+msgstr ""
+
+#: admin/partials/rating-banner.php:15
+msgid "Rate Simplify Menu Usage"
+msgstr ""
+
+#: admin/settings_page/elements/validators/email-validator.php:9
+msgid "No valid Email"
+msgstr ""
+
+#: admin/settings_page/elements/validators/file-validator.php:9
+msgid "The entered data is no valid attachment id"
+msgstr ""
+
+#: admin/settings_page/elements/validators/number-validator.php:9
+msgid "The entered data is not valid - just numbers"
+msgstr ""
+
+#: admin/settings_page/elements/validators/string-validator.php:12
+msgid "The entered data is not valid - just text"
+msgstr ""
+
+#: admin/settings_page/pages/simplify_menu_usage_page/options.php:8
+msgid "Simplify Menu Usage Settings"
+msgstr ""
+
+#: admin/settings_page/pages/simplify_menu_usage_page/page_elements.php:10
+msgid "Info"
+msgstr ""
+
+#: admin/settings_page/pages/simplify_menu_usage_page/page_elements.php:14
+msgid "The Simplify Menu Usage plugin let you work faster with menus in the backend. The behavior of inserting/moving menu items is partially modified."
+msgstr ""
+
+#: admin/settings_page/pages/simplify_menu_usage_page/page_elements.php:24
+msgid "General Settings"
+msgstr ""
+
+#: admin/settings_page/pages/simplify_menu_usage_page/page_elements.php:28
+msgid "In this section you can define the default behavior of inserting/moving menu items downwards."
+msgstr ""
+
+#: admin/settings_page/pages/simplify_menu_usage_page/page_elements.php:39
+msgid "Display description on menu page"
+msgstr ""
+
+#: admin/settings_page/pages/simplify_menu_usage_page/page_elements.php:45
+msgid "This option displays the description of the different behaviors on the menu edit page in the admin dashboard."
+msgstr ""
+
+#: admin/settings_page/pages/simplify_menu_usage_page/page_elements.php:50
+msgid "Display description"
+msgstr ""
+
+#: admin/settings_page/pages/simplify_menu_usage_page/page_elements.php:51
+msgid "Do not display description"
+msgstr ""
+
+#: admin/settings_page/pages/simplify_menu_usage_page/page_elements.php:59
+msgid "Behavior when inserting a menu item downwars"
+msgstr ""
+
+#: admin/settings_page/pages/simplify_menu_usage_page/page_elements.php:65
+msgid "The different options change the behavior of inserting/moving menu items downwards."
+msgstr ""
+
+#: admin/settings_page/pages/simplify_menu_usage_page/page_elements.php:71
+msgid "Default inserting"
+msgstr ""
+
+#: admin/settings_page/pages/simplify_menu_usage_page/page_elements.php:72
+msgid "Insert on same level"
+msgstr ""
+
+#: admin/settings_page/pages/simplify_menu_usage_page/page_elements.php:73
+msgid "Take children elements"
+msgstr ""
+
+#: admin/settings_page/setting-string-helper.php:8
+msgid "Field \"%s\" is required"
+msgstr ""
+
+#: admin/settings_page/setting-string-helper.php:9
+msgid "Do not change value of field \"%s\""
+msgstr ""
+
+#: admin/settings_page/setting-string-helper.php:19
+msgid "Field is required"
+msgstr ""
+
+#: admin/settings_page/setting-string-helper.php:20
+msgid "Do not change value of field"
+msgstr ""
+
+#: admin/settings_page/templates/pages/menu_page.php:16
+#: admin/settings_page/templates/pages/tabbed_menu_page.php:31
+msgid "Fields marked with * are required"
+msgstr ""
+
+#: admin/settings_page/templates/pages/menu_page.php:19
+msgid "Save Settings"
+msgstr ""
+
+#: admin/settings_page/templates/settings/fields/file.php:7
+msgid "Upload File"
+msgstr ""
+
+#: admin/settings_page/templates/settings/fields/file.php:14
+msgid "Remove File"
+msgstr ""
+
+#: admin/settings_page/templates/settings/fields/image.php:8
+msgid "Upload Image"
+msgstr ""
+
+#: admin/settings_page/templates/settings/fields/image.php:11
+msgid "Remove Image"
+msgstr ""

@@ -1,0 +1,190 @@
+body.nav-menus-php .menu-item-bar .menu-item-handle{
+    width:500px;
+}
+
+body.nav-menus-php .menu-item-handle .item-controls{
+    right:130px;
+}
+
+body.nav-menus-php .menu-item-handle .item-controls a.item-delete{
+    position: absolute;
+    right: -40px;
+    top: 10px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    outline: 0;
+}
+
+body.nav-menus-php .menu-item-handle .item-controls .custom-field-move button{
+    position: absolute;
+    top: 10px;
+    border-bottom: none;
+    text-decoration: none;    
+}
+
+body.nav-menus-php .menu-item-handle .item-controls .custom-menus-move-up{
+    right: -60px;
+}
+
+body.nav-menus-php .menu-item-handle .item-controls .custom-menus-move-down{
+    right: -80px;
+}
+
+body.nav-menus-php .menu-item-handle .item-controls .custom-menus-move-left{
+    right: -100px;
+}
+
+body.nav-menus-php .menu-item-handle .item-controls .custom-menus-move-right{
+    right: -120px;
+}
+
+body.nav-menus-php .menu-item-handle .item-controls .custom-field-move button:disabled{
+    cursor:default;
+    color:grey;
+}
+
+body.nav-menus-php .menu-item-title .dashicons.dashicons-admin-links{
+    margin-left: 5px;
+    font-size: 18px;
+    margin-top: 4px;
+}
+
+body.nav-menus-php .menu-item .menu-item-settings{
+    width:520px;
+}
+
+.menu-simplify-usage.quick-positions{
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 1px dashed lightgray;
+    width: 120px;
+    padding: 10px 15px;
+    height: auto;
+    min-height: 20px;
+}
+.menu-simplify-usage.quick-positions a{
+    text-decoration: none;
+    float:left;
+    margin-right:10px;
+}
+
+.menu-simplify-usage.quick-positions a:nth-of-type(1){
+    margin-left:5px;
+}
+
+.menu-simplify-usage.quick-positions a:nth-of-type(4){
+    margin-right:0px;
+}
+
+.menu-simplify-usage.quick-positions.visible{
+    visibility: visible;
+}
+
+li.menu-item-depth-0 .menu-simplify-usage.quick-positions a.move-out-element{
+    pointer-events: none;
+    color:grey;
+}
+
+body.nav-menus-php li.menu-item.found .menu-item-handle{
+    background:#e8e8e8;
+}
+
+#nav-menu-settings-explainations div.simplify-menu-usage,
+#nav-menu-settings-explainations-left div.simplify-menu-usage{
+    display:inline-block;
+    margin-right:25px;
+}
+
+#nav-menu-settings-explainations div.simplify-menu-usage a{
+    text-decoration:none;
+}
+
+
+#nav-menu-settings-explainations, #nav-menu-settings-explainations-left{
+    margin-bottom:25px;
+}
+
+#nav-menu-settings-explainations .info-image img, 
+#nav-menu-settings-explainations-left .info-image img{
+    max-width:850px;
+    width:100%;
+}
+
+.simplify-menu-usage .bold{
+    font-weight:bold;
+}
+
+.simplify-menu-usage.content-wrapper{
+    height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    -webkit-transition: height 0.2s ease-out;
+}
+
+.downwards-insert-description:hover{
+    cursor:pointer;
+}
+
+.simplify-menu-usage.accordion-wrapper p{
+    margin-bottom:0;
+}
+
+.custom-field-move.not-active button, .quick-positions .move-out-element.disabled,
+.quick-positions a.disabled{
+    pointer-events:none;
+    color:grey;
+}
+
+.form-table .simplify-menu-usage.content .info-text,
+#nav-menu-settings-explainations-left .info-text{
+    margin-bottom:10px;
+}
+
+#nav-menu-settings-explainations h4{
+    margin-bottom:10px;
+    font-size:1.2em;
+}
+
+.simplify-menu-usage .no-margin{
+    margin:0;
+}
+
+
+
+.smu-rating-banner .spinner.show{
+    visibility:visible;
+}
+
+.smu-rating-banner .spinner{
+    float:none;
+    margin-top:0;
+}
+
+.smu-rating-banner .content p{
+    display:inline-block;
+}
+
+.smu-rating-banner{
+    position:relative;
+}
+
+.smu-rating-banner a.smu-dismiss-rating-banner{
+    position:absolute;
+    top:20px;
+    right:20px;
+}
+
+#menu-to-edit li.menu-item.pending{
+    visibility:hidden;
+    opacity:0;
+}
+
+#menu-to-edit li.menu-item{
+    visibility:visible;
+    opacity:1;
+    transition:visibility 0.5s linear,opacity 0.5s linear;
+    -webkit-transition:visibility 0.5s linear,opacity 0.5s linear;
+}
